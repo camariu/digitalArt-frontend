@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:3000';
+const API_URL = 'https://digitalart-backend.onrender.com';
 
 export const fetchAllWorks = async () => {
   const response = await fetch(`${API_URL}/works`);
