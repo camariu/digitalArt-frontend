@@ -29,7 +29,7 @@ function Header() {
 
   return (
     <header className="bg-gray-800 text-stone-50 shadow-md">
-      <div className="container mx-auto flex justify-between items-center p-4 px-16">
+      <div className="container mx-auto flex justify-between items-center p-4 px-5 sm:px-16">
         <div className="text-3xl font-bold">
           <Link to="/" className="text-yellow-500 hover:text-yellow-400">ArtFolio</Link>
         </div>
